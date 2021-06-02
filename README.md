@@ -1,6 +1,14 @@
-### creating network
+## Docker redis client and server
 ```
-sudo docker network create example_net
+# Set your redis ip in client.py  
+# build containers
+build.sh
+# run containers
+run.sh
+# press Ctrl + C to stop containers
+# run selected containers from portainer or by cmd
+# test Clent - Server interaction
+python3 client.py
 ```
 
 ### address already in use
